@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .burger-item-1{
+            display: flex;
+        }
+        .burger-item-2{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .burger img{
+            width: 100%;
+        }
+        .burger{
+            width: 288%;
+        }
+        @media screen and (max-width:576px) {
+            .burger-item-1{
+                display: flex;
+                flex-direction: column;
+            }
+            .burger-item-2{
+                display: flex;
+                flex-direction: column;
+            }
+            .burger{
+                width: 100%;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="burger-content">
+            <div class="burger-item-1">
+                <div class="burger">
+                    <img src="Image/hamburger-494706_640.jpg" alt="">
+                </div>
+                <div class="details">
+                    <h2>Burger With Lettuce And Tomato</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores nulla veritatis aspernatur, maxime quis praesentium quibusdam reprehenderit amet beatae adipisci rem ad dolorem iusto nisi nihil ullam, modi doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, adipisci sint voluptate, doloremque modi repudiandae ea nesciunt odit saepe aspernatur labore veniam quas quae ad esse necessitatibus consectetur, quidem repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempore aut officiis voluptatum ipsa doloribus totam placeat est libero beatae quisquam in amet nam autem, error veritatis nulla minima? Eos.</p>
+                </div>
+            </div>
+            <div class="burger-item-2">
+                <div class="burger">
+                    <img src="Image/iphone-food-photography2-shadows.jpg" alt="">
+                </div>
+                <div class="details">
+                    <h2>Fries and Burger on Plate</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores architecto hic distinctio temporibus aut totam excepturi, recusandae repellendus porro dolorum ipsa cum culpa perspiciatis voluptatum. Sapiente vero asperiores quo iusto. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, laboriosam officiis. Cupiditate ipsam at labore doloremque odit minima odio veritatis minus id possimus, repudiandae quibusdam optio sint sit in voluptas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tenetur odit perspiciatis ab ullam repellendus. Aspernatur reprehenderit perferendis eligendi amet cum nesciunt iste necessitatibus, optio maxime, ut aperiam delectus sapiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

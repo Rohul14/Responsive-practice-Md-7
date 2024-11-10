@@ -13,6 +13,9 @@
             height: 100%;
             border-radius: 10px;
         }
+        .food-item{
+            display: flex;
+        }
         @media screen and (max-width:576px){
             .drink{
                 margin: 10px;
@@ -22,6 +25,13 @@
             height: 100%;
             border-radius: 10px;
         }
+        .food-item{
+            display: block;
+        }
+        .food img{
+            width: 100%;
+            height: 100%;
+        }
         }
     </style>
 </head>
@@ -29,5 +39,27 @@
     <div class="drink">
         <img src="Image/pexels16-photo-109275.webp" alt="">
     </div>
+    <section>
+        <div class="food-item">
+            <div class="food">
+                <img src="Image/hamburger-494706_640.jpg" alt="">
+            </div>
+            <div class="food-name">
+                <h2>Burger</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, quas iste. Inventore explicabo, veniam itaque amet earum molestias repellendus, quis asperiores illo suscipit perferendis eaque. Rem eum rerum adipisci recusandae!</p>
+                <button class="button">Order Please</button>
+            </div>
+        </div>
+        <div class="food-item">
+          <div class="food">
+            <img src="Image/iphone-food-photography2-shadows.jpg" alt="">
+          </div>
+          <div class="food name">
+            <h2>Pancakes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab pariatur veniam rerum quibusdam nesciunt, nisi in consequatur illum exercitationem quo iure vitae qui magnam impedit. Minus veniam dicta possimus illo!</p>
+            <button class="button">Order Please</button>
+          </div>
+        </div>
+    </section>
 </body>
 </html>
